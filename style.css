@@ -41,6 +41,7 @@ button:hover{
 .link li > * {
     text-decoration: none;
     color: black;
+    justify-content: space-evenly;
 }
 
 /*----------------
@@ -64,8 +65,8 @@ button:hover{
 .row{
     display: flex;
     flex-wrap: wrap;
-    /* margin-left: -10px;   
-    margin-right: -10px; */
+    margin-left: -10px;   
+    margin-right: -10px;
 }
 
 .row > * {
@@ -113,7 +114,12 @@ header .row{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 18px;
     
+}
+
+.nav-link{
+    gap: 15px;
 }
 
 
