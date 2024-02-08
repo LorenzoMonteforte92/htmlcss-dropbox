@@ -7,13 +7,21 @@
     box-sizing: border-box;
 }
 
-/*------------
-    GENERAL
---------------*/
+/*---------------
+    TYPOGRAPHY
+-----------------*/
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
+h1{
+    font-size: 40px;
+    display: inline-block;
+}
+
+/*------------
+    GENERAL
+--------------*/
 
 .button{
     background-color: #0061FF;
@@ -40,6 +48,10 @@ button:hover{
     text-decoration: none;
     color: black;
     justify-content: space-evenly;
+}
+
+main img{
+    width: 100%;
 }
 
 /*----------------
@@ -131,6 +143,25 @@ header .row{
     color: black;
 }
 
+/*----------
+    HERO
+------------*/
+.hero-section{
+    background-color: #B4D0E7;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 35px;
+
+}
+
+.arrow-down{
+    font-size: 35px;
+}
 
 
 
