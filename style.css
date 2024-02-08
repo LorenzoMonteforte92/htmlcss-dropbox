@@ -170,6 +170,13 @@ header .row{
 
 .hero-left, .hero-right{
     margin-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.margin-negative{
+    display: flex;
+    margin-bottom: -65px;
 }
 
 
