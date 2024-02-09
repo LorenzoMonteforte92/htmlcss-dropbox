@@ -64,6 +64,7 @@ main img{
     width: 20px;
     background-color: #eee;
     border-radius: 50%;
+    line-height: 20px;
 }
 
 /*----------------
@@ -195,12 +196,15 @@ header .row{
 
 .radio-button{
     display: flex;
-    align-items: center;
     gap: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 10px;
 }
 
+.radio-button span{
+    display: flex;
+    gap: 3px;
+}
 
 
