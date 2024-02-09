@@ -22,6 +22,16 @@ h2{
     font-size: 40px;
 }
 
+.bold-price{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.period-offer{
+    color: #66686B;
+    font-size: 14px;
+}
+
 
 /*------------
     GENERAL
@@ -65,6 +75,10 @@ main img{
     background-color: #eee;
     border-radius: 50%;
     line-height: 20px;
+}
+
+h3{
+    margin-bottom: 20px;
 }
 
 /*----------------
@@ -212,10 +226,16 @@ header .row{
 }
 
 .col-content{
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 25px;
     padding-right: 20px;
 }
+
+.col-content > small{
+    display: block;
+    padding-bottom: 5px;
+}
+
 
 
 
