@@ -305,6 +305,10 @@ header .row{
     margin-top: 50px;
 }
 
+.col-100 .plane-content{
+    padding-bottom: 50px;
+}
+
 /*--------------------
     PARTNER SECTION
 -----------------------*/
