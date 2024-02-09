@@ -18,6 +18,11 @@ h1{
     font-size: 60px;
 }
 
+h2{
+    font-size: 40px;
+}
+
+
 /*------------
     GENERAL
 --------------*/
@@ -51,6 +56,14 @@ button:hover{
 
 main img{
     width: 100%;
+}
+
+.radio-btn{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
 }
 
 /*----------------
@@ -172,6 +185,22 @@ header .row{
     margin-bottom: -65px;
 }
 
+/*-----------------
+    OFFER SECTION
+-------------------*/
+
+.offer-section .container-small{
+    margin-top: 90px;
+}
+
+.radio-button{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
 
 
 
