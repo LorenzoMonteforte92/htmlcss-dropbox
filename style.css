@@ -81,6 +81,16 @@ h3{
     margin-bottom: 20px;
 }
 
+.plane-content ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 /*----------------
     GRID LAYOUT
 -----------------*/
@@ -102,12 +112,12 @@ h3{
 .row{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -10px;   
-    margin-right: -10px;
+    margin-left: -20px;   
+    margin-right: -20px;
 }
 
 .row > * {
-    padding: 0 10px;
+    padding: 0 15x;
 }
 
 .col-25{
@@ -116,6 +126,10 @@ h3{
 
 .col-30{
     width: 30%;
+}
+
+.col-33{
+    width: calc(100% / 3);
 }
 
 .col-40{
@@ -221,20 +235,25 @@ header .row{
     gap: 3px;
 }
 
-.col-title{
+.plane-title{
     text-align: center;
 }
 
-.col-content{
+.plane-content{
     padding-top: 30px;
-    padding-left: 25px;
-    padding-right: 20px;
+    padding-left: 35px;
 }
 
-.col-content > small{
+.plane-content > small{
     display: block;
     padding-bottom: 5px;
 }
+
+.plane-row{
+    flex-wrap: nowrap;
+    gap: 35px;
+}
+
 
 
 
