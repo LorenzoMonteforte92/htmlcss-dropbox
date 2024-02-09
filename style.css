@@ -190,9 +190,13 @@ header .row{
     flex-wrap: wrap;
 }
 
-.header-btn{
+.white-btn{
     background-color: white;
     color: black;
+}
+
+.border-btn{
+    border: solid 1px black;
 }
 
 /*----------
@@ -301,7 +305,24 @@ header .row{
     margin-top: 50px;
 }
 
+/*--------------------
+    PARTNER SECTION
+-----------------------*/
+.partner-section{
+    margin-top: 100px;
+}
 
+.partner-section .col-40{
+    padding-top: 55px;
+    padding-left: 60px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
+.partner-btn{
+    margin-top: 8px;
+}
 
 
