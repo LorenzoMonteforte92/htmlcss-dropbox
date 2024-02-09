@@ -335,3 +335,8 @@ header .row{
 .card-section{
     margin-top: 90px;
 }
+
+.card-section h2{
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
