@@ -279,11 +279,26 @@ header .row{
     margin: 30px 0px;
 }
 
-.plane-enterprise h5{
-    /* display: flex; */
-    margin-bottom: 50px;
+.plane-enterprise .plane-content {
+    position: relative;
 }
 
+.plane-enterprise h5{
+    margin-bottom: 50px;
+}
+.enterprise-btn{
+    position: absolute;
+    top: 32px;
+    right: 35px;
+}
+
+.plane-enterprise h3{
+    margin-top: 10px;
+}
+
+.offer-section .row > .col-100{
+    margin-top: 50px;
+}
 
 
 
