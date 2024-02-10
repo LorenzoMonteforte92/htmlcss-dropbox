@@ -358,3 +358,21 @@ header .row{
 .client-link{
     margin: 50px 0px;
 }
+
+.square-33{
+    height: calc(100vw / 3);
+    width: calc(100vw / 3);
+    background-color: coral;
+
+}
+
+.sqr-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-col, .right-col{
+    max-width: 50%;
+}
+
+
