@@ -347,6 +347,14 @@ header .row{
     padding-top: 35px;
 }
 
-.card-section .container-small:nth-child(2) {
-    margin-top: 70px;
+/*--------------------
+    CLIENT SECTION
+-----------------------*/
+
+.client-section{
+    margin-top: 90px;
+}
+
+.client-link{
+    margin: 50px 0px;
 }
