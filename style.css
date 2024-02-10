@@ -349,7 +349,7 @@ header .row{
 
 /*--------------------
     CLIENT SECTION
------------------------*/
+----------------------*/
 
 .client-section{
     margin-top: 90px;
@@ -368,11 +368,34 @@ header .row{
 
 .sqr-row{
     display: flex;
-    flex-direction: column;
 }
 
 .left-col, .right-col{
-    max-width: 50%;
+    max-width: calc(100% / 4);
 }
 
+/*--------------------
+    BANNER SECTION
+----------------------*/
 
+.banner-section{
+    background-color: #B4D0E7;
+}
+
+.banner-section .row{
+    padding: 130px 0px;
+}
+
+.banner-row{
+    align-items: baseline;
+}
+
+.banner-button{
+    width: 70%;
+}
+
+.banner-section .col-40{
+    display: flex;
+    align-items: baseline;
+    justify-content: end;
+}
