@@ -269,16 +269,24 @@ header .row{
     gap: 3px;
 }
 
+.offer-section .plane{
+    border: solid 1px #D0D0D3;
+    height: 100%;
+}
+
 .plane-title{
     text-align: center;
-    border: solid 1px #D0D0D3;
+    border-bottom: solid 1px #D0D0D3;
 }
 
 .plane-content{
     padding-top: 30px;
     padding-left: 35px;
     padding-right: 35px;
-    border: solid 1px #D0D0D3;
+}
+
+.offer-section ul{
+    height: 200px;
 }
 
 .plane-content > small{
@@ -514,13 +522,37 @@ header .row{
     padding: 40px 0px;
     padding-right: 40px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .accordion-row .no-border{
     border-top: none;
     border-bottom: none;
 }
+
+.question, .answer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.answer{
+    display: none;
+    margin-top: 40px;
+}
+
+.col-33:hover .answer{
+    display: block;
+}
+
+.col-33:hover .chevron-down{
+    transform: rotate(180deg);
+}
+
+
+
+
+
+
 
 /*----------
     FOOTER
