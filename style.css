@@ -318,6 +318,11 @@ header .row{
     padding-bottom: 50px;
 }
 
+.offer-section .style-ul > * {
+    display: flex;
+    gap: 5px;
+}
+
 /*--------------------
     PARTNER SECTION
 -----------------------*/
@@ -368,19 +373,25 @@ header .row{
     margin: 50px 0px;
 }
 
-.square-33{
-    height: calc(100vw / 3);
-    width: calc(100vw / 3);
-    background-color: coral;
-
-}
-
 .sqr-row{
     display: flex;
 }
 
-.left-col, .right-col{
-    max-width: calc(100% / 4);
+.square-33{
+    height: calc(100vw / 3);
+    width: calc(100vw / 3);
+    overflow-y: auto;
+    background-color: coral;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    height: 50%;
+    width: 50%;
+    border: 1px solid green;
 }
 
 /*--------------------
