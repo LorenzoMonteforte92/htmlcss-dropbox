@@ -99,6 +99,7 @@ h3{
     margin-bottom: 15%;
 }
 
+
 .offer-section hr{
     width: 20%;
     color: #D0D0D3;
@@ -421,6 +422,22 @@ header .row{
     background-color: #FF1C1C;
 }
 
+.world-backgrnd{
+    background-color: #D5001F;
+}
+
+.hearst-backgrnd{
+    background-color:#B4D0E7;
+}
+
+.lonely-backgrnd{
+    background-color: #0D2481;
+}
+
+.clear-backgrnd{
+    background-color: #FFD830;
+}
+
 /*--------------------
     BANNER SECTION
 ----------------------*/
@@ -487,6 +504,11 @@ footer{
     color: white;
     background-color: #000000;
     padding-top: 90px;
+}
+
+.footer-row .style-ul li > * {
+    color: white;
+    text-decoration: none;
 }
 
 .footer-row{
