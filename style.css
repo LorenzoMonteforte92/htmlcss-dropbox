@@ -362,6 +362,10 @@ header .row{
     padding-top: 35px;
 }
 
+.card-section .plane{
+    min-height: 100%;
+}
+
 /*--------------------
     CLIENT SECTION
 ----------------------*/
@@ -381,6 +385,7 @@ header .row{
 .sqr-row{
     display: flex;
 }
+
 
 .square-33{
     height: calc(100vw / 3);
@@ -402,6 +407,24 @@ header .row{
 .partner-logo{
     max-width: 50%;
     filter: invert();
+}
+
+.central-square {
+    padding: 50px;
+    flex-direction: column;
+}
+
+.central-square hr{
+    width: 20%;
+}
+
+.central-square p{
+    margin-top: 45px;
+}
+
+.square-img{
+    width: 60%;
+    margin-bottom: 45px;
 }
 
 .designit-backgrnd{
