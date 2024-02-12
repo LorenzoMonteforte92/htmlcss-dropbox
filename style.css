@@ -403,6 +403,24 @@ header .row{
     filter: invert();
 }
 
+.designit-backgrnd{
+    padding: 10px;
+  background-image: linear-gradient(to bottom, #A2D39B 0%, #A2D39B 100%), linear-gradient(to bottom, #D1E9CD 0%, #D1E9CD 100%);
+  background-clip: content-box, padding-box;
+}
+
+.arizona-backgrnd{
+    background-color: #61082B;
+}
+
+.florida-backgrnd{
+    background-color: #0093CE;
+}
+
+.topps-backgrnd{
+    background-color: #FF1C1C;
+}
+
 /*--------------------
     BANNER SECTION
 ----------------------*/
